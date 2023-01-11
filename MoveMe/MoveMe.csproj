@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Bike.cs" />
+    <Compile Remove="Car.cs" />
+    <Compile Remove="Driver.cs" />
+    <Compile Remove="IVehicle.cs" />
+    <Compile Remove="RaceDriver.cs" />
+    <Compile Remove="Truck.cs" />
+    <Compile Remove="Vehicle.cs" />
+  </ItemGroup>
+
+</Project>
