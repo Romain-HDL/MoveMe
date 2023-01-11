@@ -7,11 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="TestCar.cs" />
     <Compile Remove="TestDriver.cs" />
     <Compile Remove="TestRaceDriver.cs" />
     <Compile Remove="TestTruck.cs" />
-    <Compile Remove="TestVehicle.cs" />
   </ItemGroup>
 
   <ItemGroup>

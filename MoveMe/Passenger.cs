@@ -1,27 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace MoveMe
 {
     public class Passenger
     {
-        private readonly string _cityOfDestination;
-        
-        public Passenger(string name, string destinationCity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public string CityOfDestination
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
-
-        public string LookLandscap() 
-        {
-            throw new NotImplementedException();
-        }
     }
 }
