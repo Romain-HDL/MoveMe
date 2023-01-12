@@ -9,20 +9,20 @@ namespace MoveMe
 
         public Car(string brand, List<Passenger> passengers = null):base(brand)
         {
-            throw new System.NotImplementedException();
+            _passengers = passengers;
         }
 
         public List<Passenger> Passengers
         {
             get
             {
-                throw new System.NotImplementedException();
+                return _passengers;
             }
         }
 
         public void LoadPassenger(List<Passenger> passengers)
         {
-            throw new System.NotImplementedException();
+            _passengers = passengers;
         }
     }
 }
