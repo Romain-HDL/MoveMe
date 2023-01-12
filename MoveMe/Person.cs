@@ -8,30 +8,30 @@ namespace MoveMe
 
         public Person(string name)
         {
-            throw new NotImplementedException();
+            _name = name;
         }
 
         public string Name
         {
             get
             {
-                throw new NotImplementedException();
+                return _name;
             }
         }
             
         public virtual string Eat()
         {
-            throw new NotImplementedException();
+            return "Je mange";
         }
 
         public string Drink() 
         {
-            throw new NotImplementedException();
+            return "Je bois";
         }
 
         public virtual string Sleep() 
         {
-            throw new NotImplementedException();
+            return "Je dors";
         }
     }
 }

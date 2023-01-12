@@ -2,26 +2,26 @@
 
 namespace MoveMe
 {
-    public class Passenger
+    public class Passenger : Person
     {
         private readonly string _cityOfDestination;
         
-        public Passenger(string name, string destinationCity)
+        public Passenger(string name, string destinationCity):base(name)
         {
-            throw new NotImplementedException();
+            _cityOfDestination = destinationCity;
         }
 
         public string CityOfDestination
         {
             get
             {
-                throw new NotImplementedException();
+                return _cityOfDestination;
             }
         }
 
         public string LookLandscap() 
         {
-            throw new NotImplementedException();
+            return "Je profite du paysage";
         }
     }
 }
